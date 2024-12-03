@@ -1,0 +1,100 @@
+/* 全体のスタイル */
+body {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ヘッダー部分のスタイル */
+h1 {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 16px;
+    margin: 0;
+}
+
+/* intro-textクラスのスタイル */
+.intro-text {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* aboutクラスのスタイル */
+.about {
+    margin: 20px;
+    padding: 0 15px;
+}
+
+/* 概要のリストスタイル */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* 活動スケジュールテーブルのスタイル */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* 詳しい活動内容のスタイル */
+.year-one, .year-two-three {
+    margin: 20px;
+    padding: 0 15px;
+}
+
+.year-one h3, .year-two-three h3 {
+    color: #007BFF;
+}
+
+/* 演習リストのスタイル */
+ol {
+    margin: 10px 0;
+}
+
+ol li {
+    margin-left: 16px;
+}
+
+/* 活動風景のスタイル */
+.activity-photos {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 400px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+a {
+    color: #007BFF;
+}
