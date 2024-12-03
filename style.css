@@ -16,6 +16,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    margin-left: 20px;
+}
+
 /* intro-textクラスのスタイル */
 .intro-text {
     text-align: center;
@@ -24,7 +28,7 @@ h1 {
 }
 
 /* aboutクラスのスタイル */
-.about {
+.about p{
     margin: 20px;
     padding: 0 15px;
 }
